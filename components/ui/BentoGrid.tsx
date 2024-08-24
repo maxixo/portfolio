@@ -1,6 +1,6 @@
 'use client'
 
-import  Lottie  from 'lottie-react';
+import  Lottie  from 'react-lottie';
 
 
 import { useState } from "react";
@@ -186,6 +186,7 @@ export const BentoGridItem = ({
               >
                  <img src="/confetti.gif" alt="confetti" />
                 <Lottie options={defaultOptions} height={200} width={400} /> 
+
               </div>
 
               <MagicButton
