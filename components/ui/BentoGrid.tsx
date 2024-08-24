@@ -1,7 +1,6 @@
 'use client'
 
-import  Lottie  from 'react-lottie';
-
+import  Lottie from 'react-lottie'
 
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
