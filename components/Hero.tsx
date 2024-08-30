@@ -37,7 +37,7 @@ const Hero = () => {
               words="Transforming Concepts into Seamless User Experinces"
             />
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'> 
-                Hi , I&apos;m Usman , A Next.js developer based in Nigeria
+                Hi , I&apos;m Usman , A React and Next.js developer 
             </p>
             <a href="#about">
                 <MagicButton

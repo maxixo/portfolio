@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Follow me on this journey ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "A finance dashboard with modern ui",
+    des: " A comprehensive finance dashboard designed to provide real-time insights into financial performance. It features intuitive data visualizations, customizable reports, and key metrics to help users track income, expenses, and investment portfolios. Whether you're managing personal finances or analyzing corporate budgets, this dashboard offers a clear and detailed view of financial health, empowering informed decision-making.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://github.com/maxixo/jsmfinance",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Social App",
+    des: "A simple chat application for making posts, comments and likes",
+    img: "/wallpaper.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: 'https://github.com/maxixo/socialapp'
   },
   {
     id: 3,
@@ -96,8 +96,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Robots UI",
+    des: "A simple robots ui dashboard showcasing 3d designs",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/adrianhajdin/iphone",
@@ -107,31 +107,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Working with Usman was an absolute pleasure! He not only brought my vision to life but exceeded my expectations in every way. His attention to detail, expertise in development, and commitment to delivering a high-quality product were truly impressive. Throughout the project, Usman was communicative, responsive, and always willing to go the extra mile to ensure everything was perfect. I couldn’t be happier with the results, and I highly recommend Usman to anyone looking for a skilled and dedicated developer",
+    name: "Prof Sain",
+    title: "Director of GomyCode",
+  },
+  {
+    quote:
+      "Usman was an absolute game-changer for our project! His technical expertise and problem-solving skills made the entire development process smooth and efficient. What stood out the most was his ability to understand our unique needs and translate them into a functional, beautifully designed solution. He delivered on time, communicated clearly throughout, and was always ready to tackle any challenge that came up. We couldn’t have asked for a better developer to bring our project to life.",
+    name: "Jack Smith",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Pralhad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Usman on a complex project, and I couldn’t be more impressed with the outcome. From the initial consultation to the final delivery, Usman demonstrated a deep understanding of the development process and a strong commitment to excellence. His work was flawless, and he kept me updated every step of the way, ensuring that my feedback was incorporated seamlessly. The final product was exactly what I envisioned, and I’m incredibly grateful for Usman’s hard work and dedication. I would highly recommend him to anyone in need of a top-notch developer",
+    name: "Tom Shepard",
+    title: "Manager of AppWrite",
   },
   {
     quote:
-      "Collaborating with Pralhad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Usman was an absolute pleasure! He not only brought my vision to life but exceeded my expectations in every way. His attention to detail, expertise in development, and commitment to delivering a high-quality product were truly impressive. Throughout the project, Usman was communicative, responsive, and always willing to go the extra mile to ensure everything was perfect. I couldn’t be happier with the results, and I highly recommend Usman to anyone looking for a skilled and dedicated developer",
+    name: "Emily Webb",
+    title: "CTO Sweet Sensation",
   },
   {
     quote:
-      "Collaborating with Pralhad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Pralhad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Usman was an absolute game-changer for our project! His technical expertise and problem-solving skills made the entire development process smooth and efficient. What stood out the most was his ability to understand our unique needs and translate them into a functional, beautifully designed solution. He delivered on time, communicated clearly throughout, and was always ready to tackle any challenge that came up. We couldn’t have asked for a better developer to bring our project to life.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -178,13 +178,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "Mobile App Dev",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
+
   {
     id: 3,
     title: "Freelance App Dev Project",
@@ -192,13 +186,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+ 
 ];
 
 export const socialMedia = [
